@@ -2,7 +2,7 @@
 From the Adafruit website
 
 
-he ATtiny85 does not have a protected-bootloader section. This means its possible to accidentally overwrite the bootloader (or even if you unplug the Trinket while uploading it might have difficulties from then on)
+The ATtiny85 does not have a protected-bootloader section. This means its possible to accidentally overwrite the bootloader (or even if you unplug the Trinket while uploading it might have difficulties from then on)
 
 You can use an Arduino UNO to re-program the bootloader onto your Trinket (or Gemma). This loader isn't tested to work with any other kind of Arduino.
 
